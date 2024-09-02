@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formBg {
+  background-image: url(https://cdn.forms.office.net/forms/formsresources/intelligence/themes/hack-registration2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
