@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div className='bg-[#0F1724] h-[600px] pt-[350px]'>
-            <div className='container mx-auto'>
+            <div className='container mx-auto px-[15px] md:px-0'>
                 <Link data-aos="fade-down" to={'/'}>
                     <h1 className='font-medium text-[20px] whitespace-nowrap text-white'>IT-Tanlov.uz</h1>
                 </Link>
