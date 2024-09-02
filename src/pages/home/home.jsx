@@ -1,5 +1,6 @@
 import Navbar from "../../components/navbar";
 import Hero from "./components/hero";
+import Information from "./components/information";
 
 export default function Home() {
     return (
@@ -7,9 +8,7 @@ export default function Home() {
             <Navbar />
             <div className="mt-[75px]"></div>
             <Hero />
-            <div className="container mx-auto">
-                lorem*500
-            </div>
+            <Information/>
         </>
     )
 }
