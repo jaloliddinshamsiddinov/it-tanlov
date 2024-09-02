@@ -14,7 +14,7 @@ export default function SwiperComponent() {
     return (
         <div className='mb-[60px] container mx-auto px-4'>
             <Swiper
-                slidesPerView={2}
+                slidesPerView={3}
                 spaceBetween={10}
                 pagination={{
                     clickable: true,
