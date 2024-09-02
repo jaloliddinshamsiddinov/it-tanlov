@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 export default function NotificationEmail() {
     return (
-        <div className="container mx-auto translate-y-[50%] -mt-[200px]">
+        <div className="container mx-auto translate-y-[25%] lg:translate-y-[50%] -mt-[200px]">
             <div className="w-full h-auto flex flex-col lg:flex-row md:justify-between md:items-center gap-5 bg-blue-600 rounded-xl p-[55px]">
                 <div className="img">
                     <img className="lg:w-[500px]" src="https://framerusercontent.com/images/X195nCN40zqJSrrZtTKmnw9ew.png" alt="member" />
