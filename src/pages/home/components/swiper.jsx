@@ -12,7 +12,7 @@ import { Avatar } from '@mui/material';
 
 export default function SwiperComponent() {
     return (
-        <div className='mb-[60px] container mx-auto px-1'>
+        <div className='mb-[60px] container mx-auto px-4'>
             <Swiper
                 slidesPerView={2}
                 spaceBetween={10}
