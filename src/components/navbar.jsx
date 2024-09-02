@@ -22,7 +22,7 @@ export default function Navbar() {
                         </div>
 
 
-                        <div data-aos="fade-down" onClick={() => setIsOpen(prev => !prev)} className=' w-full flex sm:hidden justify-end'>
+                        <div onClick={() => setIsOpen(prev => !prev)} className=' w-full flex sm:hidden justify-end'>
                             {isOpen ? <MdClose size={32} /> : <IoIosMenu size={32} />}
                         </div>
                     </div>
