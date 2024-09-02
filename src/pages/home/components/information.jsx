@@ -1,11 +1,12 @@
 import { Button } from "@mui/material";
 import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import SwiperComponent from "./swiper";
 
 export default function Information() {
     return (
         <>
-            <div className="container mx-auto flex flex-col md:flex-row items-center px-[15px] md:px-0">
+            <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center px-[15px] md:px-0">
                 <div className="pt-[60px] w-full md:w-[480px] lg:w-[560px]" data-aos="fade-up" data-aos-duration="2000">
                     <h1 className="font-bold text-blue-900 text-2xl sm:text-4xl mb-4" >Tanlov kimlar uchun?</h1>
                     <p className="text-gray-600 mb-3"> Maktab oʻquvchilari (12-17 yosh): “IT insonlar hayotini yengillashtiradi”</p>
@@ -49,8 +50,8 @@ export default function Information() {
             <div className="container mx-auto mt-[60px] text-center">
                 <h1 className="font-bold text-blue-900 text-2xl sm:text-4xl mb-4" >Kimlar baholaydi?</h1>
                 <p className="text-gray-600 mb-3">Ovoz berish jarayonlaridan so‘ng, mediamahsulotlarni quyidagi professional hakamlar jamoasi baholashadi.</p>
-
             </div>
+            <SwiperComponent/>
         </>
     )
 }
