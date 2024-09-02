@@ -29,7 +29,7 @@ export default function Information() {
                         <p className="flex items-center font-bold text-gray-600 gap-2"><FaCheck color="blue"/> Ochiq baholashda ovoz to‘plang</p>
                     </div>
                 </div>
-                <div className="mt-4" data-aos="fade-left">
+                <div >
                     <img className="w-full md:w-[480px] lg:w-[620px]" src="https://framerusercontent.com/images/yTWwCDoiS8kYz8bBoNwTg2diR4.png" alt="" />
                 </div>
 
