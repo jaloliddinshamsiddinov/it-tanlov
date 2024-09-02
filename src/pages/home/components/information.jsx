@@ -25,13 +25,30 @@ export default function Information() {
                         </Link>
                     </div>
                     <div className="mt-10">
-                        <p className="flex items-center font-bold text-gray-600 gap-2"><FaCheck color="blue"/> Ishtirok etish uchun ro‘yxatdan o‘ting</p>
-                        <p className="flex items-center font-bold text-gray-600 gap-2"><FaCheck color="blue"/> Ochiq baholashda ovoz to‘plang</p>
+                        <p className="flex items-center font-bold text-gray-600 gap-2"><FaCheck color="blue" /> Ishtirok etish uchun ro‘yxatdan o‘ting</p>
+                        <p className="flex items-center font-bold text-gray-600 gap-2"><FaCheck color="blue" /> Ochiq baholashda ovoz to‘plang</p>
                     </div>
                 </div>
                 <div >
                     <img className="w-full md:w-[480px] lg:w-[620px]" src="https://framerusercontent.com/images/yTWwCDoiS8kYz8bBoNwTg2diR4.png" alt="" />
                 </div>
+
+
+
+            </div>
+            <div className="container mx-auto mt-[60px] text-center">
+                <h1 className="font-bold text-blue-900 text-2xl sm:text-4xl mb-4" >Qanday baholanadi?</h1>
+                <p className="text-gray-600 mb-3">Tanlov 2 bosqichda baholanadi.</p>
+                <p className="text-gray-600 mb-3">1- bosqichda ishtirokchilar tomonidan joylangan media materiallar ochiq ovozga qo’yiladi. </p>
+                <p className="text-gray-600 mb-3">2-bosqichda eng ko‘p ovoz to‘plangan ishlar hay’at a’zolari tomonidan quyidagi mezonlar asosida baholandi:</p>
+                <p className="text-gray-600 mb-3">• Video kontent belgilangan mavzuga mos kelishi</p>
+                <p className="text-gray-600 mb-3">• Ijodkorlik va kreativlik</p>
+                <p className="text-gray-600 mb-3">• Video kontent orqali mavzuni aniq va tushunarli yoritib berilganligi</p>
+                <p className="text-gray-600 mb-3">• Texnik talablarga mosligi</p>
+            </div>
+            <div className="container mx-auto mt-[60px] text-center">
+                <h1 className="font-bold text-blue-900 text-2xl sm:text-4xl mb-4" >Kimlar baholaydi?</h1>
+                <p className="text-gray-600 mb-3">Ovoz berish jarayonlaridan so‘ng, mediamahsulotlarni quyidagi professional hakamlar jamoasi baholashadi.</p>
 
             </div>
         </>
