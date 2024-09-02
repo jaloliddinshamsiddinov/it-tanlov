@@ -37,7 +37,7 @@ export default function Information() {
 
 
             </div>
-            <div className="container mx-auto mt-[60px] text-center">
+            <div className="container mx-auto px-[15px] md:mx-0 mt-[60px] text-center">
                 <h1 className="font-bold text-blue-900 text-2xl sm:text-4xl mb-4" >Qanday baholanadi?</h1>
                 <p className="text-gray-600 mb-3">Tanlov 2 bosqichda baholanadi.</p>
                 <p className="text-gray-600 mb-3">1- bosqichda ishtirokchilar tomonidan joylangan media materiallar ochiq ovozga qo’yiladi. </p>
