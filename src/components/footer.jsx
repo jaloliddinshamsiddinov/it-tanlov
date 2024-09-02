@@ -10,7 +10,7 @@ export default function Footer() {
                 <Link data-aos="fade-down" to={'/'}>
                     <h1 className='font-medium text-[20px] whitespace-nowrap text-white'>IT-Tanlov.uz</h1>
                 </Link>
-                <p className='text-gray-500 my-5'>Yoshlar o‘rtasida IT ta’limni keng targ‘ib qilishda faol kontent mualliflar <br /> o‘rtasida "Videoroliklar" tanlovini e’lon qilamiz!</p>
+                <p className='text-gray-500 my-5'>Yoshlar o&quot;rtasida IT ta&quot;limni keng targ&quot;ib qilishda faol kontent mualliflar <br /> o‘rtasida &quot;Videoroliklar&quot; tanlovini e&quot;lon qilamiz!</p>
                 <div className='flex gap-5 mt-5 text-white'>
                     <Link target='_blank' to={'https://www.facebook.com/uzdigitaledu'}>
                         <div className='flex items-center justify-center w-[40px] h-[40px] rounded-full bg-gray-500/15'><FaFacebook /></div>
@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
 
                 <div className='flex justify-between flex-col-reverse items-center md:flex-row mt-5'>
-                    <p className='text-gray-500'>"First MA" 2024.</p>
+                    <p className='text-gray-500'>&ldquo;First MA&ldquo; 2024.</p>
                     <div className='flex items-center text-white'>
                         <p>Privacy Policy</p>
                         <PiLineVertical />
