@@ -8,7 +8,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <>
-            <div className='fixed left-0 top-0 right-0 z-50 bg-white '>
+            <div data-aos="fade-down" className='fixed left-0 top-0 right-0 z-50 bg-white '>
                 <div className={`container px-[15px] flex flex-col justify-center lg:px-0 pt-1 mx-auto w-full transition-all ${isOpen ? 'h-auto' : 'h-[75px] overflow-y-hidden'}`}>
                     <div className='w-full h-[75px] flex justify-between items-center'>
                         <Link to={'/'}>

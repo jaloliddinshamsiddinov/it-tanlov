@@ -2,8 +2,10 @@ import { NotFound } from './pages'
 import { Route, Routes } from 'react-router-dom'
 import Form from './components/form'
 import { Home } from './pages/home'
+import Aos from 'aos';
 
 export default function App() {
+  Aos.init();
   return (
     <>
       <Routes>
